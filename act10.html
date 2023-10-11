@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Temperatura</title>
+    <link rel="stylesheet" href="./style/act.css">
+</head>
+<body>
+    <section class="contenido">
+        <header>
+            <section class="botones">
+                <a href="./act11.html"><button id="direccionar">siguiente ejercicio</button></a>
+                <button id="cerrar" onclick="self.close()">cerrar</button>
+            </section>
+        </header>
+
+        <section class="nombre1">
+            <h1 id="nombre">Convertidor de Temperatura:</h1>
+        </section>
+        <p> Escribe un programa que convierta temperaturas entre
+            grados Celsius y Fahrenheit, permitiendo al usuario elegir la dirección de la conversión (de
+            Celsius a Fahrenheit o de Fahrenheit a Celsius).</p>
+
+            <div class="conversor">
+                <form id="conversorForm">
+                   <label for="temperatura">Temperatura:</label>
+                    <input type="number" id="temperatura" name="temperatura"  placeholder="Ingrese la temperatura">
+    
+                    
+                    <secction id="cambiar">
+                        <option value="celsiusToFahrenheit">De Celsius a Fahrenheit</option>
+                        <option value="fahrenheitToCelsius">De Fahrenheit a Celsius</option>
+                    </secction>
+    
+                    <button class="resultado"  type="button" onclick="convertirTemperatura()">Convertir</button>
+                </form>
+    
+                <p id="resultado10"></p>
+            </div>
+            <script src="./script.js/scripyAct.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{   margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(/img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+
+.contenido{
+    padding: 95px 45px 4px 0px;
+    
+}
+
+.botones{
+    display: flex;
+    margin: 55px;
+    justify-content: center;
+    
+}
+#cerrar{
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 45px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+#direccionar{
+ border-radius: 50px;
+    padding: 10px;
+    margin-right: 50px;
+    height: 40px;
+    width: 200px;
+}
+
+
+h1{display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 50px;
+    margin: 35px;
+   
+   
+    
+}
+#nombre{
+    background-color: #ff89ff;
+}
+p{width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.ingresa{
+    display: flex;
+    justify-content: center;
+   
+}
+button.resultado {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px aqua; 
+   
+}
+
+
+
+input#exponente{
+    width: 100px;
+}
+input#base{
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: 0;
+    }
+    .contenido {
+        padding: 5% 2% 2% 0;
+    }
+    
+    }

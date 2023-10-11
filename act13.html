@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Piedra, Papel o Tijeras</title>
+    <link rel="stylesheet" href="./style/act.css">
+</head>
+<body>
+    <section class="contenido">
+        <header>
+            <section class="botones">
+                <a href="./act1.html"><button id="direccionar">comenzar de nuevo</button></a>
+                <button id="cerrar" onclick="self.close()">cerrar</button>
+            </section>
+        </header>
+
+        <section class="nombre">
+            <h1 id="nombre">Juego de Piedra, Papel o Tijeras:</h1>
+        </section>
+        <p>Crea un juego en el que el usuario juegue contra la computadora eligiendo entre piedra, papel o tijeras, y el programa determine al ganador según las reglas del juego.</p>
+
+        <div class="ingresa">
+            <label for="opcionUsuario">Elige piedra, papel o tijeras:</label>
+            <input type="text" id="opcionUsuario">
+        </div>
+
+        <div>
+            <button  class="resultado" id="Calcular13" onclick="jugar()">Jugar</button><br>
+        </div>
+        
+        <p  id="resultado13"></p>
+    </section> 
+    <script src="./script.js/scripyAct.js"></script>
+
+</body>
+</html>

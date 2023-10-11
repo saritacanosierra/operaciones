@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinar el Número</title>
+    <link rel="stylesheet" href="./style/act.css">
+</head>
+<body>
+    <section class="contenido">
+        <header>
+            <section class="botones">
+                <a href="./act6.html"><button id="direccionar">siguiente ejercicio</button></a>
+                <button id="cerrar" onclick="self.close()">cerrar</button>
+            </section>
+        </header>
+
+        <section class="nombre">
+            <h1 id="nombre4">Adivinar el Número</h1>
+        </section>
+
+        <p>Adivinar el Número: Crea un juego en el que el programa genere un número aleatorio entre 
+            1 y 100, y el usuario debe adivinarlo. El programa debe dar pistas como "demasiado alto" o 
+            "demasiado bajo"</p>
+
+            <div class="ingresa">
+                <input type="text" id="adivinar" placeholder="Introduce un numero">
+                <button class="resultado"  onclick="verificarNumero()">Adivinar</button>
+              
+            </div>
+            <p   id="resultado5"></p>
+        </section>
+    </section>
+    <script src="./script.js/scripyAct.js"></script>
+
+
+</body>
+</html>

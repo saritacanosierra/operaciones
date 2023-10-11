@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tablas de Multiplicar</title>
+    <link rel="stylesheet" href="./style/act.css">
+</head>
+<body>
+    <section class="contenido">
+        <header>
+            <section class="botones">
+                <a href="./act4.html"><button id="direccionar">Siguiente ejercicio</button></a>
+                <button id="cerrar" onclick="self.close()">Cerrar</button>
+            </section>
+        </header>
+
+        <section class="nombre">
+            <h1>Generador de Tablas de Multiplicar</h1>
+        </section>
+        <p>Desarrolla un programa que solicite al usuario un número y luego muestre la tabla de multiplicar correspondiente a ese número.</p>
+        <div class="ingresa">
+            <label for="numeroMultiplicar">¿Cuál tabla de multiplicar deseas ver?</label>
+            <input type="number" id="numeroMultiplicar" placeholder="Ingrese un número">
+            <button  class="resultado" onclick="tablasDeMultiplicar()">multiplicar</button>
+        </div>
+        <table id="tablaHTML"></table>
+    </section>
+
+    <script src="./script.js/scripyAct.js"></script>
+
+    
+    
+</body>
+</html>

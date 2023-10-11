@@ -1,0 +1,63 @@
+
+*{display: flexbox;
+    background-image:url(/img/background\ principla.png);
+    background-size:95%;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body .principal{
+    display: flexbox;
+    width: 70%;
+    margin:20px 0px 20px 110px; 
+    justify-content: center;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;}
+
+header.encabezado{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+h1{display: flex;
+    width: 80%;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    border-style: solid;
+    border-radius: 50px;
+    background:#72fdff ;
+    box-shadow: 9px 8px rgba(0,0,0,0.7);
+}
+
+
+#ejercicios{
+    
+    padding: 40px 0px 40px 75px;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #ff89bf;
+    box-shadow: 10px 10px rgba(0,0,0,0.7);
+   
+    
+}
+.contenidoFormulario input[type="radio"] {
+    border-style: solid; 
+    margin: 15px;
+    transform: scale(3);
+  
+}
+#estudiante{
+    display: flex;
+    justify-content: center;
+}
